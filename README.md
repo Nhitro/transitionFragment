@@ -17,7 +17,7 @@ public void goToFragmentB(@NonNull View view){
 }
 
 public void goBack(@NonNull View view){
-    FragmentManager fragmentManager = getSupportFragmentManager
+    FragmentManager fragmentManager = getSupportFragmentManager();
     fragmentManager.popBackStack();
 }
 
